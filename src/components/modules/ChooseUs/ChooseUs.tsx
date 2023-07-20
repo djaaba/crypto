@@ -16,7 +16,7 @@ export const ChooseUs = ({ ...props }: ChooseUsProps): JSX.Element => {
 			</Title>
 			<div className={styles.advantages}>
 				{advantages.map((item) => (
-					<Advantage advantage={item} />
+					<Advantage key={item.id} advantage={item} />
 				))}
 			</div>
 		</>

@@ -15,6 +15,7 @@ export const Footer = ({
 				<div className={styles.socials}>
 					{socials.map((item) => (
 						<a
+							key={item.id}
 							target="_blank"
 							aria-label={`${item.name} link`}
 							href={item.url}

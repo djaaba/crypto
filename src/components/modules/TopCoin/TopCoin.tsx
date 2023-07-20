@@ -16,8 +16,8 @@ export const TopCoin = ({ coins, ...props }: TopCoinProps): JSX.Element => {
 			</Title>
 			<ul className={cn(styles.content, "wrapper")}>
 				{coins.map((coin) => (
-					<li>
-						<ShortCoin key={coin.id} coin={coin} />
+					<li key={coin.id}>
+						<ShortCoin coin={coin} />
 					</li>
 				))}
 			</ul>
