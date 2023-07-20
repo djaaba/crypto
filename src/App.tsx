@@ -6,9 +6,8 @@ import "./App.css";
 
 import { ChooseUs, Join, Market, TopCoin } from "./components/modules";
 import { Footer } from "./components/Layout/Footer/Footer";
-
-import { socials } from "./stub";
 import { Header } from "./components/Layout/Header/Header";
+import { socials } from "./stub";
 
 async function fetchCoins(skip: number) {
 	const { data } = await axios.get(
@@ -25,7 +24,7 @@ function App() {
 		() => fetchCoins(page),
 		{
 			keepPreviousData: true,
-			refetchOnWindowFocus: false,
+			// refetchOnWindowFocus: false,
 		}
 	);
 

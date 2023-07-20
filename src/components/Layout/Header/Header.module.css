@@ -25,3 +25,11 @@
 .a:hover {
     color: #ba04b7;
 }
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+}

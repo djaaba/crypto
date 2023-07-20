@@ -26,3 +26,31 @@
     color: transparent;
     background-image: linear-gradient(var(--gradient));
 }
+
+@media (max-width: 1024px) {
+    .h1 {
+        font-size: 75px;
+    }
+
+    .h2 {
+        font-size: 60px;
+    }
+
+    .h3 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 50px;
+    }
+
+    .h2 {
+        font-size: 40px;
+    }
+
+    .h3 {
+        font-size: 30px;
+    }
+}
