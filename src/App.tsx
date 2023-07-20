@@ -29,15 +29,15 @@ function App() {
 	);
 
 	if (isLoading) {
-		return <h3>Идет загрузка...</h3>;
+		return <h3>Loading...</h3>;
 	}
 
 	if (isError) {
-		return <h3>Ошибка при получении данных</h3>;
+		return <h3>Error</h3>;
 	}
 
 	if (!data) {
-		return <h3>Нет данных</h3>;
+		return <h3>No data</h3>;
 	}
 
 	return (
