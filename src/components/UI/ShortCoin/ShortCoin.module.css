@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.img {
+    height: 90px;
+    margin-bottom: 1rem;
+    width: 90px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 5px;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.name {
+    font-size: 22px;
+}
+
+.increase {
+    color: var(--price-increase)
+}
+
+.decrease {
+    color: var(--price-decrease)
+}

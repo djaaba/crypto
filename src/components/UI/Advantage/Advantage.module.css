@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    background-color: hsla(0, 0%, 100%, .05);
+    border: 1px solid hsla(0, 0%, 51%, .25);
+    border-radius: 20px;
+    grid-column-gap: 20px;
+}
+
+.wrapper {
+    align-items: center;
+    background: linear-gradient(var(--gradient));
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}

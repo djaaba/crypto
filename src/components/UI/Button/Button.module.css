@@ -1,0 +1,22 @@
+.btn {
+    background: linear-gradient(var(--gradient));
+    border-radius: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 100ms;
+
+    transition: background 1s ease;
+    transition: color 1s ease;
+}
+
+.btn:disabled {
+    background: #a5a5a5;
+    cursor: auto;
+    color: #000;
+    transition: background 1s ease;
+    transition: color 1s ease;
+}

@@ -1,0 +1,30 @@
+.container {
+    height: 35vh;
+    background-image: url('/public/img/footer/footer.png');
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    grid-column-gap: 25px;
+    margin-bottom: 30px;
+}
+
+.docs {
+    display: flex;
+    grid-column-gap: 20px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.icon:hover {
+    color: #ba04b7;
+    transition: all .3s;
+}

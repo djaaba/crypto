@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color: var(--background);
+    box-shadow: 0 10px 5px 0 rgba(0, 0, 0, .16);
+    position: fixed;
+}
+
+.navigation {
+    display: flex;
+    grid-column-gap: 25px;
+    font-weight: 700;
+}
+
+.a {
+    color: var(--primary);
+}
+
+.a:hover {
+    color: #ba04b7;
+}
